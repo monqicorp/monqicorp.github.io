@@ -29,7 +29,7 @@
           "200" : {
             "description" : "URL autenticada para onde o aluno deve ser redirecionado",
             "content" : {
-              "apllication/json" : {
+              "application/json" : {
                 "schema" : {
                   "type" : "string",
                   "example" : "https://suaplataforma.com.br/auth/CHAVE.DE.AUTENTICACAO"
