@@ -45,7 +45,7 @@
     "schemas" : { },
     "securitySchemes" : {
       "Token_Autorizacao" : {
-        "type" : "https",
+        "type" : "http",
         "scheme" : "bearer"
       }
     }
