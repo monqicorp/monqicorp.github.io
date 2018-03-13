@@ -1,7 +1,7 @@
 {
   "openapi" : "3.0.0",
   "servers" : [ {
-    "url" : "://monqicorp.com.br"
+    "url" : "https://monqicorp.com.br"
   } ],
   "info" : {
     "title" : "API de Integração da MonQi",
