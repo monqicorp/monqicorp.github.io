@@ -1,7 +1,7 @@
 {
   "openapi" : "3.0.0",
   "servers" : [ {
-    "url" : "https://monqicorp.com.br/"
+    "url" : "https://app.monqicorp.com.br"
   } ],
   "info" : {
     "title" : "API de Integração da MonQi",
@@ -9,7 +9,7 @@
     "version" : "0.0.7-oas3"
   },
   "security" : [ {
-    "bearerAuth" : [ ]
+    "Token_Autorizacao" : [ ]
   } ],
   "paths" : {
     "/v1/auth" : {
@@ -44,7 +44,7 @@
   "components" : {
     "schemas" : { },
     "securitySchemes" : {
-      "bearerAuth" : {
+      "Token_Autorizacao" : {
         "type" : "http",
         "scheme" : "bearer"
       }
