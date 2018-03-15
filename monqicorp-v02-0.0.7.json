@@ -12,7 +12,7 @@
     "bearerAuth" : [ ]
   } ],
   "paths" : {
-    "/v01/auth" : {
+    "/v02/auth" : {
       "get" : {
         "summary" : "Obtem uma URL para autenticação",
         "description" : "Gera uma chave de autenticação temporária e retorna uma URL que deve ser utilizada para redirecionar o aluno para sua plataforma. O aluno deve ser redirecionado dentro de um intervalo de 5 minutos. Após este período a URL será invalidada.",
